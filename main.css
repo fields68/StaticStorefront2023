@@ -1,5 +1,6 @@
 body {
-    background-color: #C2DFE3
+    background-color: #C2DFE3;
+    height: 873px;
 }
 
 .headerBody {
@@ -63,7 +64,7 @@ li.dropdown {
     display: block;
 }
 
-img {
+.carouselImg {
     position: relative;
     top: 29px;
     left: 26px;
@@ -73,29 +74,76 @@ img {
 }
 
 .withIMG {
-    /* width: 300px; */
     height: 550px;
 }
 
-
-/* .carousel-control-next,
-.carousel-control-prev {
-    top: 0px;
-} */
-
-
-/* .carousel-control-next {
-    left: 378px;
-}
-
-.carousel-control-prev {
-    left: -44px;
-} */
-
 #border {
-    margin: 1rem;
+    margin: 1rem 0 1rem 0;
     background-color: #5C6B73;
     width: 550px;
     height: 550px;
     border-radius: 50px;
+}
+
+.card {
+    position: relative;
+    height: 356px;
+    scale: .7;
+}
+
+.cTop1 {
+    top: -607px;
+    left: 568px;
+}
+
+.cTop2 {
+    top: -964px;
+    left: 792px;
+}
+
+.cTop3 {
+    top: -1320px;
+    left: 1015px;
+}
+
+.cTop4 {
+    top: -1675px;
+    left: 1233px;
+}
+
+.cBottom1 {
+    top: -1750px;
+    left: 568px;
+}
+
+.cBottom2 {
+    top: -2106px;
+    left: 791px;
+}
+
+.cBottom3 {
+    top: -2462px;
+    left: 1011px;
+}
+
+.cBottom4 {
+    top: -2818px;
+    left: 1230px;
+}
+
+footer {
+    position: relative;
+    top: -2835px;
+}
+
+.cardImg {
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: 13px;
+    left: 18px;
+}
+
+h1 {
+    text-align: center;
 }
